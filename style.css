@@ -1,23 +1,19 @@
-img {
-  width: 200px;
-}
-
 body {
   text-align: center;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 30px;
   background: white;
-  color:lightgrey;
+  color: #2d334a;
 }
 
 body a {
   text-decoration: none;
-  color: greenyellow;
+  color: #ffd803;
 }
 
 #title {
   font-family: Roboto;
-  color: dimgray;
+  color: #272343;
 }
 
 .column {
@@ -33,7 +29,6 @@ body a {
 }
 
 .info {
-  background:white;
   text-align: left;
 }
 
@@ -42,10 +37,10 @@ body a {
 }
 
 .box {
-  background: greenyellow;
+  background: #e3f6f5;
   padding: 20px;
   margin: 10px;
-  border: 3px solid lightgrey;
+  border: 3px solid #bae8e8;
   border-radius: 5px;
   color: white;
   font-size: 40px;
@@ -53,10 +48,15 @@ body a {
 }
 
 #createaccount {
-  background-color: lightgrey;
+  background-color: #bae8e8;
   padding: 15px;
   font-size: 30px;
   border-radius: 5px;
   font-family: Roboto;
-  color: white;
+  color: #2d334a;
+}
+
+#createaccount:hover {
+  background-color: grey;
+  transition: 1s;
 }
