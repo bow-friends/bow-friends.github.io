@@ -27,7 +27,7 @@ body a {
   column-rule-style: dashed;
   column-rule-width: 1px;
   column-rule-color: grey;
-  height: 1500px;
+  height: 100%;
   /*column-width if things get bad */
   /* column-span: initial; goes for elements */
 }
